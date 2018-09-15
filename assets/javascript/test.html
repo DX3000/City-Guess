@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id ="citypic"      ></p>    
+<p>Click the button to create an IMG element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+   let pic = [
+        "https://ichef.bbci.co.uk/news/660/cpsprodpb/E8FE/production/_98364695_gettyimages-485349663.jpg",
+        "https://images6.alphacoders.com/309/thumb-1920-309637.jpg",
+        "http://www.qygjxz.com/data/out/168/4980571-new-york-city-wallpaper.jpg",
+        "https://llcdn.listelist.com/listeliststatic/2018/01/28132106/DUeDJxAX4AA9kFT.jpg",
+        "https://vancouver.ca/images/cov/feature/science-world-false-creek2.jpg"
+    ];
+let a=0; 
+function myFunction(a) {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", pic[a]);
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+   a++;
+   document.getElementById("citypic").innerHTML = picset();
+}
+</script>
+
+</body>
+</html>

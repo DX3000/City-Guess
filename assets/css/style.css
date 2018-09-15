@@ -1,0 +1,48 @@
+/* HTML Elements */
+footer {
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight: 100;
+}
+
+header {
+    text-align: left;
+}
+
+main {
+    text-align: left;
+}
+
+/* IDs */
+#citypic {
+    align-content: center;
+
+}
+#footer {
+    font-size: 10pt;
+}
+
+#instructions {
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#word {
+    font-size: 40pt;
+    font-weight: bold;
+}
